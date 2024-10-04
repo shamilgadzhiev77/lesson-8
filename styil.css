@@ -1,0 +1,68 @@
+.body {
+margin: 0;
+font-family: "Open Sans", sans-serif;
+}
+
+.main-blok {
+width: 100vw;
+height: 100vh;
+background-image: url("img/background\ \(1\).jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+
+.main-blok__button {
+font-size: 20px;
+color: #ffff;
+background: transparent;
+font-family: "Open Sans", sans-serif;
+padding: 6px 30px 6px 29px;
+border: 1px solid #ffff;
+position: absolute;
+top: 30px;
+right: 30px;
+cursor: pointer;
+}
+
+.main-blok__text {
+color: #ffff;
+font-size: 15PX;
+position: absolute;
+right: 45px;
+bottom: 28px;    
+}
+
+.main-blok__icons {
+position: absolute;
+left: 15px;
+bottom: 27px;
+}
+.facebook {
+margin-right: 12px;
+}
+.twetter {
+margin-right: 15px;
+}
+.main-blok__title {
+font-size: 100px;
+color: #ffff;
+font-weight: 800;
+margin: 0;    
+}
+.main-blok__sudtitle {
+font-size: 20px;
+color: #ffffff;
+}
+.main-blok__box>a {
+color: #ffffff;
+margin-right: 10px;
+}
+.main-blok__box {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
